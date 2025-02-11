@@ -9,7 +9,7 @@ buildscript {
         maven("https://maven.aliucord.com/snapshots")
     }
     dependencies {
-        classpath("com.github.Aliucord:gradle:main-SNAPSHOT") {
+        classpath("com.aliucord:gradle:main-SNAPSHOT") {
                  exclude("com.github.js6pak", "jadb")
               }
         classpath("com.aliucord:jadb:1.2.1-SNAPSHOT")
